@@ -1,4 +1,4 @@
-database_name = "horseshoe_#{LuckyEnv.environment}"
+database_name = "tmp_demoinstallmar6horseshoe_#{LuckyEnv.environment}"
 
 AppDatabase.configure do |settings|
   if LuckyEnv.production?

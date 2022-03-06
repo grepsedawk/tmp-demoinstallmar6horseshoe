@@ -1,15 +1,14 @@
-# ☘️ Lucky Horseshoe 🧲
+# tmp_demoinstallmar6horseshoe
 
-A template for [Lucky](https://luckyframework.org/) web applications.
+This is a project written using [Lucky](https://luckyframework.org). Enjoy!
 
-This template is special because it bootstraps `lucky init` in order to provide
-a fresh, current copy of a lucky app, with quality of life adjustments played
-over the lucky base app.
+### Setting up the project
 
-## What is added?
+1. [Install required dependencies](https://luckyframework.org/guides/getting-started/installing#install-required-dependencies)
+1. Update database settings in `config/database.cr`
+1. Run `script/setup`
+1. Run `lucky dev` to start the app
 
-- [ameba](https://github.com/crystal-ameba/ameba) for style checking
-- Github Action for CI
-  - `crystal tool format` and `ameba` style linting
-  - `crystal spec` for testing
-- Github Action to automatically merge minor/patch dependabot PRs
+### Learning Lucky
+
+Lucky uses the [Crystal](https://crystal-lang.org) programming language. You can learn about Lucky from the [Lucky Guides](https://luckyframework.org/guides/getting-started/why-lucky).

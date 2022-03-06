@@ -1,7 +1,7 @@
 require "./server"
 
 Lucky::Session.configure do |settings|
-  settings.key = "_horseshoe_session"
+  settings.key = "_tmp_demoinstallmar6horseshoe_session"
 end
 
 Lucky::CookieJar.configure do |settings|

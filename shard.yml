@@ -1,12 +1,12 @@
-name: horseshoe
+name: tmp_demoinstallmar6horseshoe
 version: 0.1.0
 
 authors:
   - your-name-here <your-email-here>
 
 targets:
-  horseshoe:
-    main: src/horseshoe.cr
+  tmp_demoinstallmar6horseshoe:
+    main: src/tmp_demoinstallmar6horseshoe.cr
 
 crystal: 1.3.2
 
